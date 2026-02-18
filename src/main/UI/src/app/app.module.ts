@@ -7,9 +7,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent
@@ -18,6 +15,7 @@ import {HashLocationStrategy, LocationStrategy} from "@angular/common";
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
