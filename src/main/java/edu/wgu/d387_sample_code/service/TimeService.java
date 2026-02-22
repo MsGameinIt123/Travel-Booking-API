@@ -21,9 +21,9 @@ public class TimeService {
         //Format as hours and minutes
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(("HH:mm"));
 
-        return "Live Presentation Time:<br>" +
-                "ET: " + etTime.format(formatter) + "<br>" +
-                "MT: " + mtTime.format(formatter) + "<br>" +
-                "UTC: " + utcTime.format(formatter);
+        return "Live Presentation Time: " +
+                "ET: " + etTime.format(formatter) +
+                " MT: " + mtTime.format(formatter) +
+                " UTC: " + utcTime.format(formatter);
     }
 }

@@ -20,9 +20,12 @@ export class AppComponent implements OnInit{
 
   // ✅ ADD THIS: endpoint for welcome message
   private welcomeUrl:string = this.baseURL + '/welcome-message';
+  private timeUrl: string = this.baseURL + '/presentation-times';
 
   // ✅ ADD THIS: variable to store message
   public welcomeMessage:string = '';
+
+  public presentationTimes: string = '';
 
   public submitted!:boolean;
   roomsearch! : FormGroup;
@@ -49,6 +52,10 @@ export class AppComponent implements OnInit{
       .subscribe(data => {
         this.welcomeMessage = data;
       });
+
+    this.httpClient.get(this.timeUrl, { responseType: 'text'})
+      .subscribe(data => {
+        this.presentationTimes = data;});
   }
 
   onSubmit({value,valid}:{value:Roomsearch,valid:boolean}){
