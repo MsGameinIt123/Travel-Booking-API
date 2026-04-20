@@ -1,7 +1,6 @@
 # Advanced Java Spring Boot Application
 ## OVERVIEW
 This project is a full-stack web application built using Spring Boot (Java backend) and Angular (frontend). It demonstrates key concepts in enterprise application development, including multithreading, internationalization, time zone handling, and containerization.
-
 The application simulates a globalized system that dynamically adapts content based on user location and preferences.
 ## FEATURES
 Multithreaded Language Translation
@@ -49,7 +48,7 @@ Then open:
 ## DEMO/SCREENSHOTS
 Will be added later.
 ## WHAT I LEARNED
-* How to build and structure a full-stack applicaition using Spring Boot and Angular
+* How to build and structure a full-stack application using Spring Boot and Angular
 * Implementing multithreading for performance and concurrency
 * Handling real-world concerns like localization and time zones
 * Containerizing applications using Docker for deployment
@@ -57,5 +56,5 @@ Will be added later.
 This project was originally developed as part of a university course.
 All code in this repository has been adapted and presented as part of my professional portfolio.
 ## CONTACT
-If you'd like to connect or discuss opporunities, feel free to reach out via LinkedIn or GitHub.
+If you'd like to connect or discuss opportunities, feel free to reach out via LinkedIn or GitHub.
 
